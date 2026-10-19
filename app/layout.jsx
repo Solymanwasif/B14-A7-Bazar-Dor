@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="bn">
       <body
   suppressHydrationWarning
-  className="smallest-h-screen flex flex-col"
+  className="min-h-screen flex flex-col"
 >
   <AuthProvider>
     <Suspense fallback={<div className="h-20 bg-white" />}>
